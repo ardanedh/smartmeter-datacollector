@@ -1,0 +1,9 @@
+services:
+  smartmeter:
+    build: .
+    container_name: smartmeter
+    restart: unless-stopped
+    devices:
+      - ${SMARTMETER_DATACOLLECTOR_INI}:/dev/ttyUSB0
+    volumes:
+      - ${SMARTMETER_SERIAL_DEVICE}:/app/datacollector.ini:rw

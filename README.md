@@ -10,6 +10,16 @@
 
 ---
 
+> [!IMPORTANT]
+> ### Maintenance Notice
+> This project will only be maintained and further developed until the end of **2026**. The main reason for this decision is that there are now several good alternative products available that provide similar functionality.
+> 
+> Nevertheless, we welcome anyone interested in continuing the project beyond 2026. This may include reviewing contributions, handling issues, updating the codebase, and publishing releases. If you are interested, please reply in the corresponding [GitHub Discussion](https://github.com/scs/smartmeter-datacollector/discussions/94).
+> 
+> Thank you to everyone who has used, contributed to, and supported this project.
+
+---
+
 The `smartmeter-datacollector` tool is a Python software which allows you to continuously retrieve data from supported smart meters (listed below).
 The acquired values can be forwarded to one or more data sinks like a MQTT broker.
 
